@@ -1,0 +1,59 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Webflow Development",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        }
+    ]
+    ,
+    "projects": [
+        {
+            "id": "1",
+            "src": "./img/cleo.jpg",
+            "title": "Classroom Management",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "2",
+            "src": "./img/cleo.jpg",
+            "title": "Back-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/cleo.jpg",
+            "title": "UI & UX Design",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "link": "View In Github"
+        },
+        {
+            "id": "4",
+            "src": "./img/cleo.jpg",
+            "title": "Webflow Development",
+            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "link": "View In Github"
+        }
+    ]
+}
