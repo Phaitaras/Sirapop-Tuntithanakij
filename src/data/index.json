@@ -29,30 +29,30 @@
     "projects": [
         {
             "id": "1",
-            "src": "./img/cleo.jpg",
+            "src": "./img/sedu.png",
             "title": "Classroom Management",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "description": "Website designed in branding of Software Engineering department to create a cohesive user interface. Features course forum, assignments, comments, grading accessible to both students and teachers.",
             "link": "View In Github"
         },
         {
             "id": "2",
-            "src": "./img/cleo.jpg",
-            "title": "Back-End",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "src": "./img/fuzzytypers.png",
+            "title": "Fuzzy Typers",
+            "description": "Cute Indie Typing Game with my own designed assets to improve typing skills. Object-Oriented and done with C++ and Raylib.",
             "link": "View In Github"
         },
         {
             "id": "3",
-            "src": "./img/cleo.jpg",
-            "title": "UI & UX Design",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "src": "./img/lazadashopee.png",
+            "title": "Lazada & Shopee Search",
+            "description": "Search any product from Shopee and Lazada in one app, sorted and displayed. Browser automated with Selenium and Information Scraping with Bs4.",
             "link": "View In Github"
         },
         {
             "id": "4",
-            "src": "./img/cleo.jpg",
-            "title": "Webflow Development",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "src": "./img/password.png",
+            "title": "Password Security Check",
+            "description": "Determine passwords strength through researched algorithms including common weaknesses such as guessable patterns, including sequential or repetitive characters, common names or phrases, and dictionary words. Written in Java.",
             "link": "View In Github"
         }
     ]

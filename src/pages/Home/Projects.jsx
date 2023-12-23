@@ -21,7 +21,7 @@ export default function Projects() {
                         </div>
                         <div className="projects--section--card--content">
                             <div>
-                                <h3 className="projects--section--title">{item.title}</h3>
+                                <h3 className="projects--section--title">{item.title}</h3><br />
                                 <p className="text-md">{item.description}</p>
                             </div>
                             <p className="text-sm projects--link">
