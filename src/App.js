@@ -6,17 +6,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Router>
         <div>
           <Navbar />
-          <Routes>
+          <Home />
+          {/* <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
-          </Routes>
+          </Routes> */}
         </div>
       </Router>
-    </div>
+    </main>
   );
 }
 
