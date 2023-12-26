@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sirapop-Tuntithanakij/static/css/main.3357498c.css",
+    "main.js": "/Sirapop-Tuntithanakij/static/js/main.94bb5e45.js",
+    "static/js/787.7da95b79.chunk.js": "/Sirapop-Tuntithanakij/static/js/787.7da95b79.chunk.js",
+    "index.html": "/Sirapop-Tuntithanakij/index.html",
+    "main.3357498c.css.map": "/Sirapop-Tuntithanakij/static/css/main.3357498c.css.map",
+    "main.94bb5e45.js.map": "/Sirapop-Tuntithanakij/static/js/main.94bb5e45.js.map",
+    "787.7da95b79.chunk.js.map": "/Sirapop-Tuntithanakij/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3357498c.css",
+    "static/js/main.94bb5e45.js"
+  ]
+}
