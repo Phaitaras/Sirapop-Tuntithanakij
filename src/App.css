@@ -19,6 +19,9 @@ h1,h2,h3,h4,h5,h6,p {
   --black: black;
   --white: white;
 }
+a {
+  text-decoration: none;
+}
 
 .btn {
   font-family: 'Poppins';
@@ -203,7 +206,7 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
 }
 
 .hero--section--content {
@@ -245,10 +248,8 @@ h3 {
 }
 
 .hero--section--img  > img {
-  max-width: 500px;
+  max-width: 425px;
   border-radius: 50px;
-  width: 100%;
-  height: 100%;
 }
 
 /* Skills Section Style */
@@ -273,7 +274,7 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .skills--section--card {
@@ -286,11 +287,12 @@ h3 {
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
+  transition: 0.3s;
 }
 
 .skills--section--card:hover {
   /* border-bottom: 4px solid var(--primary); */
-  box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.15);
 }
 
 .skills--section--card:hover .skills--section--description {
@@ -306,6 +308,10 @@ h3 {
   border-radius: 10.6px;
   background: white;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+}
+
+.skills--section--img > img {
+  width: 60px;
 }
 
 .skills--section--card--content {
@@ -380,8 +386,12 @@ h3 {
   flex: 1 0 0;
   background: white;
   box-shadow: 0 0 32px 0 rgba(0,0,0,0.15);
-  cursor: pointer;
+  transition: 0.3s ease;
   border-radius: 15px;
+}
+
+.projects--section--card:hover {
+  box-shadow: 0 0 32px 0 rgba(0,0,0,0.3);
 }
 
 .projects--section--card--content {
@@ -391,6 +401,10 @@ h3 {
   align-items: flex-start;
   align-self: stretch;
   gap: 32px;
+}
+
+.projects--section--card--content > .projects--link {
+  cursor: pointer;
 }
 
 /* Contact */
@@ -420,13 +434,127 @@ h3 {
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
 }
 
-.contact--section--content > div {
+.contact--section--content > a {
+  color: var(--darkblue);
   display: flex;
   gap: 12px;
   flex-direction: row;
   cursor: pointer;
 }
 
-.contact--section--content > div > img {
+.contact--section--content > a > img {
   width: 20px;
+}
+
+/* Responsive */
+@media (max-width: 1080px) {
+  .hero--section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 133.333px 80px 133.333px
+  }
+
+  .hero--section--content--box {
+    align-items: center;
+    gap: 42px;
+  }
+
+  .hero--section--content--box > * {
+    align-items: center;
+  }
+
+  .hero--section--title {
+    text-align: center;
+  }
+
+  .skills--section--container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects--container-box {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .projects--section--container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+  }
+
+  .contact--section--content {
+    flex-direction: column;
+  }
+}
+
+.nav__hamburger {
+  display: none;
+  width: 1.875rem;
+  height: 1.313rem;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.nav__hamburger__line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav__hamburger {
+    display: flex;
+    z-index: 200;
+  }
+  .navbar--items {
+    display: flex;
+  }
+  .navbar--items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    top: -20rem;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+  .navbar--items ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    z-index: -100;
+  }
+  .navbar--items ul li {
+    text-align: center;
+  }
+  .navbar--items ul li a {
+    padding: 0.5rem;
+  }
+  .navbar--items {
+    z-index: -1000;
+  }
+  .navbar--items.active {
+    top: 30px;
+  }
+  .nav__hamburger.active :nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav__hamburger.active :nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburger.active :nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
 }

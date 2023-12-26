@@ -8,10 +8,10 @@ export default function Projects() {
                     <h2 className="section--heading">Recent Projects</h2>
                 </div>
                 <div>
-                <button className="btn btn-github">
-                    Visit Github
-                </button>
-            </div>
+                    <a href="https://github.com/Phaitaras" className="btn btn-github">
+                        View Github
+                    </a>
+                </div>
             </div>
             <div className="projects--section--container">
                 {data?.projects?.map((item, index) => (
@@ -24,9 +24,9 @@ export default function Projects() {
                                 <h3 className="projects--section--title">{item.title}</h3><br />
                                 <p className="text-md">{item.description}</p>
                             </div>
-                            <p className="text-sm projects--link">
-                                View in Github
-                            </p>
+                            <a className="text-sm projects--link" href={item.link}>
+                            View in Github
+                            </a>
                         </div>
                     </div>
                 ))}

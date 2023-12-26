@@ -2,27 +2,41 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "src": "./img/feather-pen-1.png",
+            "title": "HTML & CSS",
+            "description": "Highly proficient in web development with HTML and CSS, showcasing solid design principles to create visually appealing and responsive web experiences."
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "star": "visible",
+            "src": "./img/react.png",
+            "title": "Javascript + React",
+            "description": "Adequate experience in Javascript and React framework, providing functionality and scability to web applications."
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "star": "visible",
+            "src": "./img/python.png",
+            "title": "Python + FastAPI",
+            "description": "Highly competent in Python, applying modules and API to develop a wide array of projects. Includes FastAPI for websites, Selenium for web automation, Bs4 for web scraping."
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            "src": "./img/java.png",
+            "title": "Java",
+            "description": "Fairly proficient in Java, utilizing object-oriented programming and intermediate level Data Structures and Algorithms."
+        },
+        {
+            "id": "5",
+            "src": "./img/c++.png",
+            "title": "C++",
+            "description": "Decent experience in C++, focusing on object-oriented programming concepts to build foundational programs and projects. Experienced in Game development."
+        },
+        {
+            "id": "6",
+            "src": "./img/tag-1.png",
+            "title": "Lua, Raylib",
+            "description": "Versed in Raylib game development framework and Lua scripting language, demonstrating deep understanding of game development principles and practices."
         }
     ]
     ,
@@ -32,28 +46,28 @@
             "src": "./img/sedu.png",
             "title": "Classroom Management",
             "description": "Website designed in branding of Software Engineering department to create a cohesive user interface. Features course forum, assignments, comments, grading accessible to both students and teachers.",
-            "link": "View In Github"
+            "link": "https://github.com/m0owo/SEdu"
         },
         {
             "id": "2",
             "src": "./img/fuzzytypers.png",
             "title": "Fuzzy Typers",
             "description": "Cute Indie Typing Game with my own designed assets to improve typing skills. Object-Oriented and done with C++ and Raylib.",
-            "link": "View In Github"
+            "link": "https://github.com/Phaitaras/TypingPractice"
         },
         {
             "id": "3",
             "src": "./img/lazadashopee.png",
             "title": "Lazada & Shopee Search",
             "description": "Search any product from Shopee and Lazada in one app, sorted and displayed. Browser automated with Selenium and Information Scraping with Bs4.",
-            "link": "View In Github"
+            "link": "https://github.com/Phaitaras/Online-Shopping-Search"
         },
         {
             "id": "4",
             "src": "./img/password.png",
             "title": "Password Security Check",
             "description": "Determine passwords strength through researched algorithms including common weaknesses such as guessable patterns, including sequential or repetitive characters, common names or phrases, and dictionary words. Written in Java.",
-            "link": "View In Github"
+            "link": "https://github.com/Phaitaras/APCS-Password-Strength"
         }
     ]
 }

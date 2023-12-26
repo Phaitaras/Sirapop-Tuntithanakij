@@ -6,26 +6,26 @@ export default function Contact(){
                 <h1>Contact Me</h1>
             </div>
             <div className="contact--section--content">
-                <div>
+                <a>
                     <img src="./img/phone.svg"/>
                     <p>+66 64-337-3025</p>
-                </div>
-                <div>
+                </a>
+                <a href="mailto:sirapop33408@gmail.com">
                     <img src="./img/email.svg"/>
                     <p>sirapop33408@gmail.com</p>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.linkedin.com/in/sirapop-tuntithanakij/">
                     <img src="./img/linkedin.svg"/>
                     <p>LinkedIn</p>
-                </div>
-                <div>
+                </a>
+                <a href="https://github.com/Phaitaras">
                     <img src="./img/github.svg"/>
                     <p>GitHub</p>
-                </div>
-                <div>
+                </a>
+                <a href="https://line.me/ti/p/~phaitaras69">
                     <img src="./img/line.svg"/>
                     <p>phaitaras69</p>
-                </div>
+                </a>
             </div>
         </div>
     )
