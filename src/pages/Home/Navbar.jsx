@@ -14,7 +14,7 @@ function Navbar() {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 500) {
+            if (window.innerWidth <= 1200) {
                 closeMenu();
             }
         };
@@ -27,7 +27,7 @@ function Navbar() {
     }, []);
 
     useEffect(() => {
-        if (window.innerWidth <= 1050) {
+        if (window.innerWidth <= 1200) {
             closeMenu();
         }
     }, []);
