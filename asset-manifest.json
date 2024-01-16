@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sirapop-Tuntithanakij/static/css/main.3a01884e.css",
-    "main.js": "/Sirapop-Tuntithanakij/static/js/main.af7b0632.js",
+    "main.css": "/Sirapop-Tuntithanakij/static/css/main.170a3118.css",
+    "main.js": "/Sirapop-Tuntithanakij/static/js/main.603b132c.js",
     "static/js/787.7da95b79.chunk.js": "/Sirapop-Tuntithanakij/static/js/787.7da95b79.chunk.js",
     "index.html": "/Sirapop-Tuntithanakij/index.html",
-    "main.3a01884e.css.map": "/Sirapop-Tuntithanakij/static/css/main.3a01884e.css.map",
-    "main.af7b0632.js.map": "/Sirapop-Tuntithanakij/static/js/main.af7b0632.js.map",
+    "main.170a3118.css.map": "/Sirapop-Tuntithanakij/static/css/main.170a3118.css.map",
+    "main.603b132c.js.map": "/Sirapop-Tuntithanakij/static/js/main.603b132c.js.map",
     "787.7da95b79.chunk.js.map": "/Sirapop-Tuntithanakij/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a01884e.css",
-    "static/js/main.af7b0632.js"
+    "static/css/main.170a3118.css",
+    "static/js/main.603b132c.js"
   ]
 }
